@@ -1,5 +1,5 @@
 * Source: [guardian coding exercises](https://github.com/guardian/coding-exercises).
-* In README first section, it lists out the instructions of the exercises. In second section, it lists the structure of my codes.
+* In README [first section](https://github.com/claireweiz/election-results#election-results), it lists out the instructions of the exercises. [In second section](https://github.com/claireweiz/election-results#my-solutions), it lists the structure of my codes.
 
 # Election results
 
