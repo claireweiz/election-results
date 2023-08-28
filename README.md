@@ -1,3 +1,6 @@
+* Source: [guardian coding exercises](https://github.com/guardian/coding-exercises).
+* In README first section, it lists out the instructions of the exercises. In second section, it lists the structure of my codes.
+
 # Election results
 
 It's election night! Exciting! We have a feed of election results from a data supplier. They will supply us a file which will be updated throughout the night as results come in.
@@ -51,3 +54,12 @@ Calculate the average change towards or away from the parties and then use this 
 ### Extension
 
 Discuss (but do not solve in code) how you would amend this solution to deal with the fact that the number of eligible voters changes from election to election.
+
+
+# My solutions
+
+* Updated Aug 28, 2023
+* Import election results raw data (source.txt)
+* Transform the data: the constituency name (key of dict)
+* Transform the data: translates the party code into a full name
+* Transform the data: shows the share of the vote in percentage of all the votes
