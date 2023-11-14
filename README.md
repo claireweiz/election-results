@@ -1,5 +1,6 @@
-* Source: [guardian coding exercises](https://github.com/guardian/coding-exercises).
-* In README [first section](https://github.com/claireweiz/election-results#election-results), it lists out the instructions of the exercises. [In second section](https://github.com/claireweiz/election-results#my-solutions), it lists the structure of my codes.
+* There are two sections in README. 
+* In the [first section](https://github.com/claireweiz/election-results#election-results), I quoted a part of the instructions from [Guardian coding exercises](https://github.com/guardian/coding-exercises) for coding practice. 
+* In the [second section](https://github.com/claireweiz/election-results#my-solutions), it's my thought process and code structure.
 
 # Election results
 
@@ -35,31 +36,14 @@ We want to transform this into a standard result that shows:
 * Ind - Independent
 * SNP - SNP
 
-### Validation
-
-If there is a problem with the format of the results file then all good entries should result in output and the error should go to a separate error log with the problem explained in non-technical language that a journalist might be able to understand and report back to the results service.
-
-## Enhancements
-
-The results service may be behind the actual results or may contain an error. We want to be able to combine the results file with an "override" file. If a constituency has an entry for a party in the override file that value should be used instead of the result file.
-
-If the constituency is not present in the results file the result should be added entirely from the override file.
-
-## Swing-o-meter
-
-Suppose we have a result file from the previous election in the same format. Add the percentage changes in the vote to the results.
-
-Calculate the average change towards or away from the parties and then use this average swing to predict the result of elections that are in the previous election's result file but not in the current one.
-
-### Extension
-
-Discuss (but do not solve in code) how you would amend this solution to deal with the fact that the number of eligible voters changes from election to election.
-
 
 # My solutions
 
 * Updated Aug 28, 2023
+
+How I did the task:
 * Import election results raw data (source.txt)
-* Transform the data: the constituency name (key of dict)
-* Transform the data: translates the party code into a full name
-* Transform the data: shows the share of the vote in percentage of all the votes
+* My goal was to transform the dataset to a dictionary in the following format: {'constituency' : {'party name' : 'percentage of the votes'}}
+* Transform the data-step 1: Made the constituency the key in the dictionary (data type: string)
+* Transform the data-step 2: Translated the party code into a full party name (data type: string)
+* Transform the data-step 3: Displayed the vote of each party in percentage of all the votes (data type: decimal)
