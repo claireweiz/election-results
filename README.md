@@ -1,6 +1,6 @@
-* There are two sections in README. 
-* In the [first section](https://github.com/claireweiz/election-results#election-results), I quoted a part of the instructions from [Guardian coding exercises](https://github.com/guardian/coding-exercises) for coding practice. 
-* In the [second section](https://github.com/claireweiz/election-results#my-solutions), it's my thought process and code structure.
+I have divided the README into two sections: 
+* The [first section](https://github.com/claireweiz/election-results#election-results) includes instructions from the [Guardian coding exercises](https://github.com/guardian/coding-exercises). 
+* The [second section](https://github.com/claireweiz/election-results#my-solutions) details my thought process for completing this task.
 
 # Election results
 
@@ -39,11 +39,14 @@ We want to transform this into a standard result that shows:
 
 # My solutions
 
-* Updated Aug 28, 2023
+Updated Aug 28, 2023
 
 How I did the task:
-* Import election results raw data (source.txt)
-* My goal was to transform the dataset to a dictionary in the following format: {'constituency' : {'party name' : 'percentage of the votes'}}
-* Transform the data-step 1: Made the constituency the key in the dictionary (data type: string)
-* Transform the data-step 2: Translated the party code into a full party name (data type: string)
-* Transform the data-step 3: Displayed the vote of each party in percentage of all the votes (data type: decimal)
+
+Imported the raw data of the election results (source.txt)
+
+* Step 1: Transformed the constituency data to the key in the dictionary (data type: string)
+* Step 2: Transformed the party code into a full party name (data type: string)
+* Step 3: Displayed the vote of each party as a percentage of all the votes (data type: decimal)
+
+The result was a nested dictionary created in this format: {'constituency' : {'party name' : 'percentage of the votes'}}
