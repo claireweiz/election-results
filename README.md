@@ -1,3 +1,5 @@
+# Description
+
 I have divided the README into two sections: 
 * The [first section](https://github.com/claireweiz/election-results#election-results) includes instructions from the [Guardian coding exercises](https://github.com/guardian/coding-exercises). 
 * The [second section](https://github.com/claireweiz/election-results#my-solutions) details my thought process for completing this task.
